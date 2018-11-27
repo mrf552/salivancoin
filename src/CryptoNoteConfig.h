@@ -14,7 +14,7 @@ const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
 //TODO Currency-specific address prefix
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x9b;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0xef;
 //TODO Choose maturity period for your currency
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 60;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
@@ -106,7 +106,13 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "db40b762a06296cf
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "144.217.156.95:45999",
+  "144.217.156.95:45888",
+  "192.168.0.107:45888",
+  "192.168.0.108:45888",
+  "192.168.0.101:45888",
+  "192.168.0.102:45888",
+  "192.168.0.103:45888",
+  "192.168.0.104:45888",
   //"your_seed_ip2.com:8080",
 };
 
