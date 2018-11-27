@@ -73,8 +73,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 //TODO Put here the name of your currency
-const char     CRYPTONOTE_NAME[]                             = "salivancoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     CRYPTONOTE_NAME[]                             = "giftcoin";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000181adf0eb1d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b4f3478d486e09abb37a7e3ff8fc5e075f161048099ae7a6e3b19c42dd912243";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
