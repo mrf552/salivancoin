@@ -13,12 +13,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh root@riddle \'hostname\''
+                sh 'ssh edgar@192.168.67.194 \'hostname\''
             }
         }
         stage("Second step") {
             steps {
-                sh 'ssh root@riddle \'uptime\''
+                sh 'ssh edgar@192.168.67.194 \'uptime\''
             }
         }
     }
