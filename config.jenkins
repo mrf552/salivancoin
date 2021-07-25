@@ -14,7 +14,7 @@ pipeline {
         stage("First step") {
             steps {
                 sh 'ssh root@192.168.1.209 \'hostname\''
-                sh 'scp -r $workspace/github-pipline root@192.168.1.209:~/'
+                sh 'scp -r /var/jenkins_home/workspace/github-pipline root@192.168.1.209:~/'
             }
         }
         stage("Second step") {
